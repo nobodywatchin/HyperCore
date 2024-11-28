@@ -21,8 +21,7 @@ modules:
     install:
       - cockpit-machines
       - xen
-      - libvirt-daemon-driver-xen 
-      - python-virtinst 
+      - libvirt-daemon-xen 
       - libvirt-daemon-config-network 
       - libvirt-daemon-driver-network 
       - virt-manager 
