@@ -21,6 +21,12 @@ modules:
     install:
       - cockpit-machines
       - xen
+      - libvirt-daemon-driver-xen 
+      - python-virtinst 
+      - libvirt-daemon-config-network 
+      - libvirt-daemon-driver-network 
+      - virt-manager 
+      - virt-viewer
     remove:
       # - 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
