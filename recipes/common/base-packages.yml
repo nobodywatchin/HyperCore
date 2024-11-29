@@ -8,3 +8,5 @@ install:
   - libvirt-daemon-driver-network 
   - virt-manager 
   - virt-viewer
+  - ceph
+  - ceph-common
