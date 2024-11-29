@@ -1,10 +1,10 @@
 # HyperCore &nbsp; [![bluebuild build badge](https://github.com/nobodywatchin/hypercore/actions/workflows/build.yml/badge.svg)](https://github.com/nobodywatchin/hypercore/actions/workflows/build.yml)
 
-An OS designed for cloud-native, hyper-converged environments, blending virtualization, redundant storage, and container technology into one seamless platform.
+HyperCore is a purpose-built operating system for cloud-native, hyper-converged environments. It seamlessly integrates virtualization, redundant storage, and container orchestration into a unified platform.
 
-HyperCore is an opinionated spin of uCore that integrates Kubernetes, favours the Xen hypervisor as a virtualization platform, and integrates Ceph to manage storage.
+Built on top of uCore, HyperCore incorporates Kubernetes for container management, leverages the Xen hypervisor for virtualization, and utilizes Ceph for robust, distributed storage management.
 
-Together, these technologies combined create a hyper-converged server cluster all in one lightweight and headless operating system. 
+By combining these technologies, HyperCore delivers a hyper-converged server cluster within a lightweight, headless operating system, optimized for performance and simplicity.
 
 ## Installation
 
