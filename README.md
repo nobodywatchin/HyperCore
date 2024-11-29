@@ -1,13 +1,17 @@
 # HyperCore &nbsp; [![bluebuild build badge](https://github.com/nobodywatchin/hypercore/actions/workflows/build.yml/badge.svg)](https://github.com/nobodywatchin/hypercore/actions/workflows/build.yml)
 
-An OS designed for cloud-native, hyper-converged environments, blending virtualization, storage, and compute into one seamless platform.
+An OS designed for cloud-native, hyper-converged environments, blending virtualization, redundant storage, and container technology into one seamless platform.
+
+HyperCore is an opinionated spin of uCore that integrates Kubernetes, favours the Xen hypervisor as a virtualization platform, and integrates Ceph to manage storage.
+
+Together, these technologies combined create a hyper-converged server cluster all in one lightweight and headless operating system. 
 
 ## Installation
 
 > **Warning**  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
-To rebase an existing atomic Fedora installation to the latest build:
+To rebase an existing atomic Fedora (coreOS, Silverblue, Kinoite) installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
