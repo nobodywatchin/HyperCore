@@ -1,0 +1,10 @@
+type: rpm-ostree
+repos: 
+install:
+  - cockpit-machines
+  - xen
+  - libvirt-daemon-xen 
+  - libvirt-daemon-config-network 
+  - libvirt-daemon-driver-network 
+  - virt-manager 
+  - virt-viewer
