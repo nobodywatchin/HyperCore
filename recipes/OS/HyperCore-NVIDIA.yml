@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: HyperCore-NVIDIA
+name: hypercore-nvidia
 # description will be included in the image's metadata
 description: An OS designed for cloud-native, hyper-converged environments, blending virtualization, storage, and compute into one seamless platform.
 
