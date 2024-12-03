@@ -3,6 +3,7 @@ repos:
 install:
   - cockpit-machines
   - xen
+  - xen-tools
   - libvirt-daemon-xen 
   - libvirt-daemon-config-network 
   - libvirt-daemon-driver-network 
@@ -10,3 +11,7 @@ install:
   - virt-viewer
   - ceph
   - ceph-common
+  - kubernetes
+  - kubernetes-kubeadm
+  - kubernetes-client
+  - kubernetes-systemd
