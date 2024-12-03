@@ -3,7 +3,6 @@ repos:
 install:
   - cockpit-machines
   - xen
-  - xen-tools
   - libvirt-daemon-xen 
   - libvirt-daemon-config-network 
   - libvirt-daemon-driver-network 
