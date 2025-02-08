@@ -1,4 +1,6 @@
 type: rpm-ostree
+remove:
+  - nfs-utils-coreos
 install:
   - cockpit-machines
   - xen
