@@ -22,8 +22,10 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - /OS/HyperCore.yml
-          - /OS/HyperCore-NVIDIA.yml
+          - /OS/securecore/HyperCore.yml
+          - /OS/securecore/HyperCore-NVIDIA.yml
+          - /OS/ccos/HyperCCOS.yml
+          - /OS/ccos/HyperCCOS-NVIDIA.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build HyperCore
